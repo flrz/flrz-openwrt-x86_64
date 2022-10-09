@@ -10,5 +10,5 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-sed -i 's/192.168.1.1/192.168.105.252/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/21.21.21.252/g' package/base-files/files/bin/config_generate
 rm openwrt/package/lean/luci-theme-argon -rf
