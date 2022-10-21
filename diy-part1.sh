@@ -19,6 +19,6 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.conf.default
 echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 echo 'src-git smallpackage https://github.com/kenzok8/small-package' >>feeds.conf.default
-echo 'src-git argon https://github.com/jerrykuku/luci-theme-argon/releases/tag/v1.7.3' >>feeds.conf.default
+#echo 'src-git argon https://github.com/jerrykuku/luci-theme-argon/releases/tag/v1.7.3' >>feeds.conf.default
 #echo 'src-git vssr https://github.com/jerrykuku/luci-app-vssr' >>feeds.conf.default
 #echo 'src-git vssr https://github.com/jerrykuku/lua-maxminddb' >>feeds.conf.default
