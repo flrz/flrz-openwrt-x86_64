@@ -15,3 +15,6 @@ sed -i 's/192.168.1.1/21.21.21.252/g' package/base-files/files/bin/config_genera
 
 #2. Replace with JerryKuKu’s Argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
+
+#3. 
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
