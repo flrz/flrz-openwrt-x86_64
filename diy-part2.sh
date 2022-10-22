@@ -10,5 +10,8 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
+#1. Modify default IP
 sed -i 's/192.168.1.1/21.21.21.252/g' package/base-files/files/bin/config_generate
+
+#2. Replace with JerryKuKu’s Argon
 rm openwrt/package/lean/luci-theme-argon -rf
