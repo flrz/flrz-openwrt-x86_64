@@ -14,4 +14,4 @@
 sed -i 's/192.168.1.1/21.21.21.252/g' package/base-files/files/bin/config_generate
 
 #2. Replace with JerryKuKu’s Argon
-rm openwrt/package/lean/luci-theme-argon -rf
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
