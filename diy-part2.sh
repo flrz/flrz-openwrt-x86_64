@@ -11,7 +11,7 @@
 #
 
 #1. Modify default IP
-sed -i 's/192.168.1.1/21.21.21.252/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/102.102.102.252/g' package/base-files/files/bin/config_generate
 
 #2. Replace with JerryKuKu’s Argon
 rm -rf package/lean/luci-theme-argon
