@@ -1,4 +1,4 @@
-**English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+**English** | [中文](https://github.com/flrz/Lede)
 
 # Actions-OpenWrt
 
