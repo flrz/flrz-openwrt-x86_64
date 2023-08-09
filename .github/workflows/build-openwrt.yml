@@ -33,7 +33,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: boolean
   UPLOAD_WETRANSFER: boolean
-  UPLOAD_RELEASE: true
+  UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
 jobs:
