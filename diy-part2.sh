@@ -18,5 +18,3 @@ sed -i 's/192.168.1.1/192.168.102.252/g' package/base-files/files/bin/config_gen
 #git clone https://github.com/kenzok78/luci-theme-argone
 #sed -i 's/luci-theme-bootstrap/luci-theme-argone/' feeds/luci/collections/luci/Makefile
 
-#3. Pull-package
-#git clone https://github.com/xiaorouji/openwrt-passwall
