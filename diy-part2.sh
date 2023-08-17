@@ -17,4 +17,3 @@ sed -i 's/192.168.1.1/192.168.102.252/g' package/base-files/files/bin/config_gen
 #rm -rf luci-theme-argone
 #git clone https://github.com/kenzok78/luci-theme-argone
 sed -i 's/luci-theme-bootstrap/luci-theme-argone/' feeds/luci/collections/luci/Makefile
-
