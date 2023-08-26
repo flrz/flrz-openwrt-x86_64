@@ -1,6 +1,6 @@
 自用Openwrt固件
 
-源自:
+感谢:
 
 https://github.com/P3TERX/Actions-OpenWrt
 
