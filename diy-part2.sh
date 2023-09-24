@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/192.168.102.253/g' package/base-files/files/bin/config_generate
 
 #2. Replace with JerryKuKu’s Argon
-rm -rf luci-theme-argone
+rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 git clone https://github.com/jerrykuku/luci-app-argon-config
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
