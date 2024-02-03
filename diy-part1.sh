@@ -16,7 +16,7 @@
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small-package' feeds.conf.default
 #sed -i '$a src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-sed -i '$a src-git smallpackage https://github.com/kenzok8/small-package' >>feeds.conf.default
+#sed -i '$a src-git smallpackage https://github.com/kenzok8/small-package' >>feeds.conf.default
 #sed -i '$a src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages' feeds.conf.default
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #sed -i '$a src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >> feeds.conf.default
@@ -33,4 +33,4 @@ sed -i '$a src-git smallpackage https://github.com/kenzok8/small-package' >>feed
 #echo 'src-git vssr https://github.com/jerrykuku/luci-app-vssr' >>feeds.conf.default
 #echo 'src-git maxminddb https://github.com/jerrykuku/lua-maxminddb' >>feeds.conf.default
 #echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-#echo 'src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
+echo 'src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
