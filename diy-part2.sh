@@ -17,7 +17,7 @@ sed -i 's/192.168.1.1/192.168.7.1/g' package/base-files/files/bin/config_generat
 #cd lede/package/lean
 #rm -rf luci-theme-argon
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
 
 #cd lede/package/lean
 #rm -rf luci-app-argon-config # if have
