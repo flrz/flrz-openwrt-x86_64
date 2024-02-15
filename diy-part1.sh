@@ -16,7 +16,6 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 echo 'src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall-packages' >> feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git argonconfig https://github.com/jerrykuku/luci-app-argon-config' >>feeds.conf.default
 #echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >> feeds.conf.default
 #echo 'src-git mosdns https://github.com/IrineSistiana/mosdns' >>feeds.conf.default
 #echo 'src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome' >>feeds.conf.default
