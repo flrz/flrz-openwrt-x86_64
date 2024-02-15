@@ -22,5 +22,5 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
 
 cd lede/package/lean
-#rm -rf luci-app-argon-config # if have
-#git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git luci-app-argon-config
+rm -rf luci-app-argon-config # if have
+git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git luci-app-argon-config
