@@ -55,7 +55,7 @@ jobs:
         ./scripts/feeds install -a
         ./scripts/feeds install -a
 
-    - name: Import external feeds - passwall
+    - name: Import external feeds - plug-in
       working-directory: ./openwrt
       run: |
         git clone https://github.com/kenzok8/openwrt-packages.git package/kenzo
