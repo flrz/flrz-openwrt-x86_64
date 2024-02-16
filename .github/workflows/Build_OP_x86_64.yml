@@ -59,7 +59,7 @@ jobs:
       working-directory: ./openwrt
       run: |
         git clone https://github.com/kenzok8/openwrt-packages.git package/kenzo
-        git clone https://github.com/kenzok8/small.git/small      
+        git clone https://github.com/kenzok8/small.git package/small      
 
     #- name: Import external feeds - JerryKuKu Argon
     #  working-directory: ./openwrt
