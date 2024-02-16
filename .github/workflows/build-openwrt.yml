@@ -19,27 +19,13 @@ on:
         required: false
         default: 'false'
 
-env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
-  FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
-  UPLOAD_BIN_DIR: false
-  UPLOAD_FIRMWARE: true
-  UPLOAD_COWTRANSFER: boolean
-  UPLOAD_WETRANSFER: boolean
-  UPLOAD_RELEASE: false
-  TZ: Asia/Shanghai
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@main
 
     - name: Initialization environment
       env:
@@ -61,6 +47,20 @@ jobs:
         sudo -E apt-get clean
         
     - name: Clone source code
+      env:
+        REPO_URL: https://github.com/coolsnowwolf/lede
+        REPO_BRANCH: master
+        FEEDS_CONF: feeds.conf.default
+        CONFIG_FILE: .config
+        DIY_P1_SH: diy-part1.sh
+        DIY_P2_SH: diy-part2.sh
+        UPLOAD_BIN_DIR: false
+        UPLOAD_FIRMWARE: true
+        UPLOAD_COWTRANSFER: boolean
+        UPLOAD_WETRANSFER: boolean
+        UPLOAD_RELEASE: false
+        TZ: Asia/Shanghai
+        
       working-directory: /workdir
       run: |
         df -hT $PWD
