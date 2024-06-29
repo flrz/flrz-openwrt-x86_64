@@ -1,4 +1,4 @@
-自用X86_64固件，感谢以下项目！
+主用旁路由X86_64固件，感谢以下项目！
 
 https://github.com/coolsnowwolf/lede
 
