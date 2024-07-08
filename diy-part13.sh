@@ -21,4 +21,4 @@
 #echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.conf.default
 #echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 #echo 'src-git themes https://github.com/flrz/lede-themes' >>feeds.conf.default
-echo 'src-git turboacc https://github.com/chenmozhijin/turboacc' >>feeds.conf.default
+#echo 'src-git turboacc https://github.com/chenmozhijin/turboacc' >>feeds.conf.default
