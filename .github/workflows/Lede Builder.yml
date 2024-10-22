@@ -9,16 +9,14 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-
 name: Lede Builder
 
 on:
   schedule:
     - cron: 0 23 * * 5
     
-  repository_dispatch:
-  workflow_dispatch:
-
+  #repository_dispatch:
+  #workflow_dispatch:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
