@@ -13,12 +13,11 @@
 name: Lede Builder
 
 on:
+  repository_dispatch:
+  workflow_dispatch:
   schedule:
     - cron: 0 23 * * 5
     
-  #repository_dispatch:
-  #workflow_dispatch:
-
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
