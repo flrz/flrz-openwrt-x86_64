@@ -12,11 +12,11 @@
 
 name: immortalwrt Builder
 
-on:
-  repository_dispatch:
-  workflow_dispatch:
-  schedule:
-    - cron: 0 23 15 * *
+#on:
+  #repository_dispatch:
+  #workflow_dispatch:
+  #schedule:
+    #- cron: 0 23 15 * *
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
