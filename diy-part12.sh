@@ -22,3 +22,4 @@
 #echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 #echo 'src-git themes https://github.com/flrz/lede-themes' >>feeds.conf.default
 #echo 'src-git adguardhome https://github.com/flrz/adguardhome' >>feeds.conf.default
+echo 'src-git argon https://github.com/jerrykuku/luci-theme-argon' >>feeds.conf.default
