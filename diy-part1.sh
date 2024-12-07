@@ -16,13 +16,10 @@
 #echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 #echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+sed -i '1i src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall-packages' feeds.conf.default
+sed -i '2i src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 #echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.conf.default
-#echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
+sed -i '3i src-git openclash https://github.com/vernesong/OpenClash' feeds.conf.default
 #echo 'src-git themes https://github.com/flrz/lede-themes' >>feeds.conf.default
 #echo 'src-git adguardhome https://github.com/flrz/adguardhome' >>feeds.conf.default
-git clone https://github.com/jerrykuku/luci-theme-argon.git
-git clone https://github.com/xiaorouji/openwrt-passwall.git
-git clone https://github.com/xiaorouji/openwrt-passwall-packages.git
-git clone https://github.com/vernesong/OpenClash.git
+sed -i '4i src-git argon https://github.com/jerrykuku/luci-theme-argon.git' feeds.conf.default
