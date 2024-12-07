@@ -23,3 +23,6 @@
 #echo 'src-git themes https://github.com/flrz/lede-themes' >>feeds.conf.default
 #echo 'src-git adguardhome https://github.com/flrz/adguardhome' >>feeds.conf.default
 git clone https://github.com/jerrykuku/luci-theme-argon.git
+git clone https://github.com/xiaorouji/openwrt-passwall.git
+git clone https://github.com/xiaorouji/openwrt-passwall-packages.git
+git clone https://github.com/vernesong/OpenClash.git
