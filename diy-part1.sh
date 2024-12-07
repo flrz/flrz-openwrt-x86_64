@@ -22,4 +22,3 @@ echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.
 echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 echo 'src-git themes https://github.com/flrz/lede-themes' >>feeds.conf.default
 echo 'src-git adguardhome https://github.com/flrz/adguardhome' >>feeds.conf.default
-src-git luci https://github.com/coolsnowwolf/luci
